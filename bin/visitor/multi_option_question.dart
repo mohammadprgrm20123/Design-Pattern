@@ -3,7 +3,7 @@
 import 'question_visitor.dart';
 import 'visitor.dart';
 
-class MultiOptionQuestion extends QuestionVisitor{
+class MultiOptionQuestion extends QuestionBase{
   Visitor visitor=Visitor();
 
   @override

@@ -2,7 +2,7 @@
 import 'question_visitor.dart';
 import 'visitor.dart';
 
-class DescriptiveQuestion extends QuestionVisitor{
+class DescriptiveQuestion extends QuestionBase{
 
    Visitor visitor=Visitor();
   @override

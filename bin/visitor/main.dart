@@ -6,9 +6,14 @@ import 'start_question.dart';
 
 void main(List<String> arguments) {
 
+  /// This is an example of how to apply different
+  /// types of questions to a
+  /// list that was created
+  /// using Visitor.
+
   QuestionType questionType =QuestionType.multiOption;
 
-  QuestionVisitor questionVisitor;
+  QuestionBase questionVisitor;
 
   switch(questionType){
 

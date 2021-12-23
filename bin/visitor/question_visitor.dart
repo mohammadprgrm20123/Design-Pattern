@@ -2,6 +2,6 @@
 
 import 'visitor.dart';
 
-abstract class QuestionVisitor {
+abstract class QuestionBase {
   void add();
 }
